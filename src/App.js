@@ -5,7 +5,6 @@ import 'mdbreact/dist/css/mdb.css';
 import React from 'react';
 import { MemoryRouter, BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Intro from './Intro';
-import Projects from './Projects';
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Intro}></Route>
-          <Route exact path="/projects" component={Projects}></Route>
         </Switch>
       </Router>
     </MemoryRouter>
