@@ -283,17 +283,17 @@ class Intro extends React.Component {
               <MDBRow center>              
               <MDBCol size="4">
                 <a href="https://www.linkedin.com/in/swetha-angara-411550188/">
-                  <i class="fab fa-linkedin fa-3x"></i>
+                  <i className="fab fa-linkedin fa-3x"></i>
                 </a>
               </MDBCol>
               <MDBCol size="4">
               <a href="https://github.com/swetha-5689">
-                <i class="fab fa-github-square fa-3x"></i>
+                <i className="fab fa-github-square fa-3x"></i>
               </a>  
               </MDBCol>
               <MDBCol size="4">
               <a href="https://saphotosite.wordpress.com/">
-                <i class="fab fa-wordpress fa-3x"></i>
+                <i className="fab fa-wordpress fa-3x"></i>
               </a> 
               </MDBCol>
               </MDBRow>
